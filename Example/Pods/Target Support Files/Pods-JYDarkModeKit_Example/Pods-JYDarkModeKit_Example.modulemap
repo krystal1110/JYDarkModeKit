@@ -1,0 +1,6 @@
+framework module Pods_JYDarkModeKit_Example {
+  umbrella header "Pods-JYDarkModeKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

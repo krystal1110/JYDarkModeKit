@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JYDarkModeKit_Example' do
+  pod 'JYDarkModeKit', :path => '../'
+
+  target 'JYDarkModeKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

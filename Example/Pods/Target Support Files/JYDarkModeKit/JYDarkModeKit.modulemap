@@ -1,0 +1,6 @@
+framework module JYDarkModeKit {
+  umbrella header "JYDarkModeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

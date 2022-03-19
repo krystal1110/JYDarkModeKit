@@ -1,0 +1,16 @@
+PODS:
+  - JYDarkModeKit (0.1.0)
+
+DEPENDENCIES:
+  - JYDarkModeKit (from `../`)
+
+EXTERNAL SOURCES:
+  JYDarkModeKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JYDarkModeKit: 7af385a997408ec8ab59cd3dbdaebefca97a5ea3
+
+PODFILE CHECKSUM: a29c9dba6944edce16c383c5bf2a552dd328898d
+
+COCOAPODS: 1.11.0

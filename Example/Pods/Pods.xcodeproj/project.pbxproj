@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09C8C65C367234802AD5BE01A07F8C65 /* Pods-JYDarkModeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB1F813EE22AEBCA2B77FAE4750694 /* Pods-JYDarkModeKit_Tests-dummy.m */; };
+		0CBD114557C23250DEE98F544B46F5FF /* Pods-JYDarkModeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F451BE4083F0E11AA202E9AA4C5A1E /* Pods-JYDarkModeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16163525670AD70DA60C83DC1A8E6671 /* Pods-JYDarkModeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF84ED6CA7D25C6029BB3283991D473B /* Pods-JYDarkModeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		213BCD6A975F23B408D5A36AE18862EA /* Pods-JYDarkModeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E969956B0774B1D093E4FFC55B6AEEC /* Pods-JYDarkModeKit_Example-dummy.m */; };
+		28DFA988346D465B9F5A397EB9BB1C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2B727CC5B18AF10BB3DE5CF6698C91E4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */; };
+		79C5872D89A9A9C1A7D0E57DE24D784B /* JYDarkModeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */; };
+		9DB4F137A62CBACCAA26931022E6C4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A0A6AA4038FF498A0158C830B0270C74 /* JYDarkModeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC18240BEC7FC0BA0301E392DBE4284D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ABBD2B8AE82DFD866ABB74877F501A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFB7576FF2A22B56208B12A5453BD03;
+			remoteInfo = JYDarkModeKit;
+		};
+		3F03F59E547592299DF1BA4120528BF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49A672D26CA4DFCE6E1FB29BB2533C38;
+			remoteInfo = "Pods-JYDarkModeKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8FA4A3DD7D29257ECA1E8F88F45DEF /* Pods-JYDarkModeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		0D4E44EF6B1BD06C0F08D1AAB24BAF37 /* Pods-JYDarkModeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		0F13CD4B67B22AB0660A9A8409FA32EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		162199956584812C32121785975BFB42 /* JYDarkModeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYDarkModeKit.modulemap; sourceTree = "<group>"; };
+		17F451BE4083F0E11AA202E9AA4C5A1E /* Pods-JYDarkModeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYDarkModeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		25044A33A7BDE9958224678A3DD24D9F /* Pods-JYDarkModeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2EC43190CA40CBC2D38F0CEFFB4BBCD8 /* JYDarkModeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-prefix.pch"; sourceTree = "<group>"; };
+		3E969956B0774B1D093E4FFC55B6AEEC /* Pods-JYDarkModeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYDarkModeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		55297A2C13A4D898DA3F55F586B724CD /* Pods-JYDarkModeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		59E85542A0075916E9F028C19388261A /* Pods-JYDarkModeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYDarkModeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		5AB9C1A1542199CC465F6C3E3D8646F7 /* Pods-JYDarkModeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74642878E43C4FE74E01BD4C65D058AA /* Pods-JYDarkModeKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JYDarkModeKit_Tests"; path = Pods_JYDarkModeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7560FA060249821FA0DAFAAC302E68E0 /* Pods-JYDarkModeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D54173F9ECF4BB2B177B2EA706FE40E /* Pods-JYDarkModeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Example-Info.plist"; sourceTree = "<group>"; };
+		82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JYDarkModeKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		84EB1F813EE22AEBCA2B77FAE4750694 /* Pods-JYDarkModeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYDarkModeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYDarkModeKit-dummy.m"; sourceTree = "<group>"; };
+		8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-umbrella.h"; sourceTree = "<group>"; };
+		8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F07CFE07B986E333BC9F3732A455E4C /* Pods-JYDarkModeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYDarkModeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B85CA07A5BE5076953F9120E85F10B51 /* JYDarkModeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYDarkModeKit-Info.plist"; sourceTree = "<group>"; };
+		B962EA0C2BB1ACA4D87184A5892BD0C1 /* Pods-JYDarkModeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYDarkModeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BB07872DAB73D508F758FDC0E5D47CE0 /* Pods-JYDarkModeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYDarkModeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C715F6345F2CB9849C5D5FBCF9B8209C /* Pods-JYDarkModeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYDarkModeKit_Example.modulemap"; sourceTree = "<group>"; };
+		D235433DA4612A30E05BDDFA057727E6 /* Pods-JYDarkModeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D9B68E31EF5711B0D80C99A1F0D6013E /* JYDarkModeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYDarkModeKit; path = JYDarkModeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC9305BFFD985FE212A9A820B6DF46C4 /* Pods-JYDarkModeKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JYDarkModeKit_Example"; path = Pods_JYDarkModeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCF284C691A4A63CAC0204CE7680C8BF /* JYDarkModeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYDarkModeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E4ABE9C24EBEC215E2FD74AE17BEEDB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EF84ED6CA7D25C6029BB3283991D473B /* Pods-JYDarkModeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYDarkModeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.debug.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C8B017C4EBF2BF8F5976DB83E411631 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28DFA988346D465B9F5A397EB9BB1C71 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		510072C3F21803424C8C6F9C9887B164 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB4F137A62CBACCAA26931022E6C4FB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0E34C8365D88581A325C0FC9CEA7F3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC18240BEC7FC0BA0301E392DBE4284D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F18AC985122BC4C114FC16E86EF1E2B /* JYDarkModeKit */ = {
+			isa = PBXGroup;
+			children = (
+				82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */,
+				38A66D3664BE7DF35310E18E81E94564 /* Pod */,
+				772E339AE83163F76A717AFEB83E77C6 /* Support Files */,
+			);
+			name = JYDarkModeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		38A66D3664BE7DF35310E18E81E94564 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DCF284C691A4A63CAC0204CE7680C8BF /* JYDarkModeKit.podspec */,
+				E4ABE9C24EBEC215E2FD74AE17BEEDB5 /* LICENSE */,
+				0F13CD4B67B22AB0660A9A8409FA32EA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4CEC7B9BBB3789DA89CF1D17C7CACC07 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E660DE4543FBFEA000391C184AF1E72 /* Pods-JYDarkModeKit_Example */,
+				F389809DC025FAB4F186EA2F73DC2E52 /* Pods-JYDarkModeKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E660DE4543FBFEA000391C184AF1E72 /* Pods-JYDarkModeKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C715F6345F2CB9849C5D5FBCF9B8209C /* Pods-JYDarkModeKit_Example.modulemap */,
+				BB07872DAB73D508F758FDC0E5D47CE0 /* Pods-JYDarkModeKit_Example-acknowledgements.markdown */,
+				D235433DA4612A30E05BDDFA057727E6 /* Pods-JYDarkModeKit_Example-acknowledgements.plist */,
+				3E969956B0774B1D093E4FFC55B6AEEC /* Pods-JYDarkModeKit_Example-dummy.m */,
+				B962EA0C2BB1ACA4D87184A5892BD0C1 /* Pods-JYDarkModeKit_Example-frameworks.sh */,
+				7D54173F9ECF4BB2B177B2EA706FE40E /* Pods-JYDarkModeKit_Example-Info.plist */,
+				17F451BE4083F0E11AA202E9AA4C5A1E /* Pods-JYDarkModeKit_Example-umbrella.h */,
+				55297A2C13A4D898DA3F55F586B724CD /* Pods-JYDarkModeKit_Example.debug.xcconfig */,
+				25044A33A7BDE9958224678A3DD24D9F /* Pods-JYDarkModeKit_Example.release.xcconfig */,
+			);
+			name = "Pods-JYDarkModeKit_Example";
+			path = "Target Support Files/Pods-JYDarkModeKit_Example";
+			sourceTree = "<group>";
+		};
+		772E339AE83163F76A717AFEB83E77C6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				162199956584812C32121785975BFB42 /* JYDarkModeKit.modulemap */,
+				8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */,
+				B85CA07A5BE5076953F9120E85F10B51 /* JYDarkModeKit-Info.plist */,
+				2EC43190CA40CBC2D38F0CEFFB4BBCD8 /* JYDarkModeKit-prefix.pch */,
+				8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */,
+				F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */,
+				8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JYDarkModeKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				E48854F65D1CD1DEE1D2FC7B9272E064 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				D672D4477CD2F0661DCB3846C709B881 /* Products */,
+				4CEC7B9BBB3789DA89CF1D17C7CACC07 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D672D4477CD2F0661DCB3846C709B881 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9B68E31EF5711B0D80C99A1F0D6013E /* JYDarkModeKit */,
+				DC9305BFFD985FE212A9A820B6DF46C4 /* Pods-JYDarkModeKit_Example */,
+				74642878E43C4FE74E01BD4C65D058AA /* Pods-JYDarkModeKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E48854F65D1CD1DEE1D2FC7B9272E064 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F18AC985122BC4C114FC16E86EF1E2B /* JYDarkModeKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F389809DC025FAB4F186EA2F73DC2E52 /* Pods-JYDarkModeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				59E85542A0075916E9F028C19388261A /* Pods-JYDarkModeKit_Tests.modulemap */,
+				9F07CFE07B986E333BC9F3732A455E4C /* Pods-JYDarkModeKit_Tests-acknowledgements.markdown */,
+				5AB9C1A1542199CC465F6C3E3D8646F7 /* Pods-JYDarkModeKit_Tests-acknowledgements.plist */,
+				84EB1F813EE22AEBCA2B77FAE4750694 /* Pods-JYDarkModeKit_Tests-dummy.m */,
+				0C8FA4A3DD7D29257ECA1E8F88F45DEF /* Pods-JYDarkModeKit_Tests-Info.plist */,
+				EF84ED6CA7D25C6029BB3283991D473B /* Pods-JYDarkModeKit_Tests-umbrella.h */,
+				7560FA060249821FA0DAFAAC302E68E0 /* Pods-JYDarkModeKit_Tests.debug.xcconfig */,
+				0D4E44EF6B1BD06C0F08D1AAB24BAF37 /* Pods-JYDarkModeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-JYDarkModeKit_Tests";
+			path = "Target Support Files/Pods-JYDarkModeKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30127ED187E445CB533FC713D4EE1D36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0A6AA4038FF498A0158C830B0270C74 /* JYDarkModeKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E960196C4B226C4E5EF8AAC9AD18A383 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CBD114557C23250DEE98F544B46F5FF /* Pods-JYDarkModeKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5222C1EAF38965E9EA746415A54C277 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16163525670AD70DA60C83DC1A8E6671 /* Pods-JYDarkModeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1AF6B2981E11606DFFF39CFFFACD7516 /* Pods-JYDarkModeKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5272A41D752CA146F68F2F64F038537 /* Build configuration list for PBXNativeTarget "Pods-JYDarkModeKit_Tests" */;
+			buildPhases = (
+				F5222C1EAF38965E9EA746415A54C277 /* Headers */,
+				846FAE7E74AFAB661DA3A5768AFE4768 /* Sources */,
+				B0E34C8365D88581A325C0FC9CEA7F3B /* Frameworks */,
+				06EEEE21561637D5EF0CA9137098ED2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29AA05A90247420B6D80EBC7F24040AF /* PBXTargetDependency */,
+			);
+			name = "Pods-JYDarkModeKit_Tests";
+			productName = Pods_JYDarkModeKit_Tests;
+			productReference = 74642878E43C4FE74E01BD4C65D058AA /* Pods-JYDarkModeKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		49A672D26CA4DFCE6E1FB29BB2533C38 /* Pods-JYDarkModeKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61D9A6F213F91400123F3BAFBEE61E4 /* Build configuration list for PBXNativeTarget "Pods-JYDarkModeKit_Example" */;
+			buildPhases = (
+				E960196C4B226C4E5EF8AAC9AD18A383 /* Headers */,
+				F6AEAA53E3029313EE20B004145C266A /* Sources */,
+				0C8B017C4EBF2BF8F5976DB83E411631 /* Frameworks */,
+				D2A64B0E13BE2DE33531B2B1A3C4A86A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				131FD39343FEC0691AD734B4E2522F29 /* PBXTargetDependency */,
+			);
+			name = "Pods-JYDarkModeKit_Example";
+			productName = Pods_JYDarkModeKit_Example;
+			productReference = DC9305BFFD985FE212A9A820B6DF46C4 /* Pods-JYDarkModeKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B759DEC530B4837F711E66E0BE11B2A /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */;
+			buildPhases = (
+				30127ED187E445CB533FC713D4EE1D36 /* Headers */,
+				5F6D9499691C22FD186BE3B9C1C8FB3B /* Sources */,
+				510072C3F21803424C8C6F9C9887B164 /* Frameworks */,
+				A5C095F3176B97166660E326F77BD955 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYDarkModeKit;
+			productName = JYDarkModeKit;
+			productReference = D9B68E31EF5711B0D80C99A1F0D6013E /* JYDarkModeKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D672D4477CD2F0661DCB3846C709B881 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */,
+				49A672D26CA4DFCE6E1FB29BB2533C38 /* Pods-JYDarkModeKit_Example */,
+				1AF6B2981E11606DFFF39CFFFACD7516 /* Pods-JYDarkModeKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06EEEE21561637D5EF0CA9137098ED2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5C095F3176B97166660E326F77BD955 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2A64B0E13BE2DE33531B2B1A3C4A86A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F6D9499691C22FD186BE3B9C1C8FB3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79C5872D89A9A9C1A7D0E57DE24D784B /* JYDarkModeKit-dummy.m in Sources */,
+				2B727CC5B18AF10BB3DE5CF6698C91E4 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		846FAE7E74AFAB661DA3A5768AFE4768 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C8C65C367234802AD5BE01A07F8C65 /* Pods-JYDarkModeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6AEAA53E3029313EE20B004145C266A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				213BCD6A975F23B408D5A36AE18862EA /* Pods-JYDarkModeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		131FD39343FEC0691AD734B4E2522F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JYDarkModeKit;
+			target = 6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */;
+			targetProxy = 3ABBD2B8AE82DFD866ABB74877F501A5 /* PBXContainerItemProxy */;
+		};
+		29AA05A90247420B6D80EBC7F24040AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JYDarkModeKit_Example";
+			target = 49A672D26CA4DFCE6E1FB29BB2533C38 /* Pods-JYDarkModeKit_Example */;
+			targetProxy = 3F03F59E547592299DF1BA4120528BF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		005FCA3C18CA001220E22E9BCB2615BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = JYDarkModeKit;
+				PRODUCT_NAME = JYDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		169FE3ACD141A96B9A1366C2C677A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7560FA060249821FA0DAFAAC302E68E0 /* Pods-JYDarkModeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYDarkModeKit_Tests/Pods-JYDarkModeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYDarkModeKit_Tests/Pods-JYDarkModeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		66FCBA9F0BC1D99A35BF7F3E4057EC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = JYDarkModeKit;
+				PRODUCT_NAME = JYDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6A6F9FC8033106F9FE4D29CD67CAB273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D4E44EF6B1BD06C0F08D1AAB24BAF37 /* Pods-JYDarkModeKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYDarkModeKit_Tests/Pods-JYDarkModeKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYDarkModeKit_Tests/Pods-JYDarkModeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8306FEEFEF163AE9A363948712C3575B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25044A33A7BDE9958224678A3DD24D9F /* Pods-JYDarkModeKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYDarkModeKit_Example/Pods-JYDarkModeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYDarkModeKit_Example/Pods-JYDarkModeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B58EB21533295B1B94C1263FC5014EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55297A2C13A4D898DA3F55F586B724CD /* Pods-JYDarkModeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JYDarkModeKit_Example/Pods-JYDarkModeKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JYDarkModeKit_Example/Pods-JYDarkModeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B759DEC530B4837F711E66E0BE11B2A /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FCBA9F0BC1D99A35BF7F3E4057EC26 /* Debug */,
+				005FCA3C18CA001220E22E9BCB2615BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5272A41D752CA146F68F2F64F038537 /* Build configuration list for PBXNativeTarget "Pods-JYDarkModeKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169FE3ACD141A96B9A1366C2C677A095 /* Debug */,
+				6A6F9FC8033106F9FE4D29CD67CAB273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61D9A6F213F91400123F3BAFBEE61E4 /* Build configuration list for PBXNativeTarget "Pods-JYDarkModeKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58EB21533295B1B94C1263FC5014EF2 /* Debug */,
+				8306FEEFEF163AE9A363948712C3575B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
