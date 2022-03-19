@@ -7,69 +7,129 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		027C69B72C636AB36C90014F8C385070 /* JYDynamicColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A6AFF31538427B157563DE2B673A9F14 /* JYDynamicColor.m */; };
+		02982D99E8039B5166DE68AE3F3627C1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		080A3BDBCAF74B63761554CB96E1757B /* JYTraitCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6FF568870BCDD6A40C47802DEBDA02 /* JYTraitCollection.m */; };
 		09C8C65C367234802AD5BE01A07F8C65 /* Pods-JYDarkModeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB1F813EE22AEBCA2B77FAE4750694 /* Pods-JYDarkModeKit_Tests-dummy.m */; };
+		0C331EE3B5314CF34C8D55A83F50F755 /* UITableView+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EA87C8DAF8B2DEF215EA072779CF5BF /* UITableView+JYDarkModeKit.m */; };
 		0CBD114557C23250DEE98F544B46F5FF /* Pods-JYDarkModeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 17F451BE4083F0E11AA202E9AA4C5A1E /* Pods-JYDarkModeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0DB5CD748286D5449123DCDAED8B8BD4 /* JYEnvironmentConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = BA423BEFA17F73E5B6170B25B55FDB69 /* JYEnvironmentConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12BFA6649CAD7337A1169146F6006020 /* UIImage+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A53C8805C152508341FCA8E9A13C10DA /* UIImage+JYDarkModeKit.m */; };
 		16163525670AD70DA60C83DC1A8E6671 /* Pods-JYDarkModeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF84ED6CA7D25C6029BB3283991D473B /* Pods-JYDarkModeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		213BCD6A975F23B408D5A36AE18862EA /* Pods-JYDarkModeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E969956B0774B1D093E4FFC55B6AEEC /* Pods-JYDarkModeKit_Example-dummy.m */; };
+		229622DAECF14C843842FC46CEA89EFF /* JYDynamicImageProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 3535498163C56FA9D0363923592967DA /* JYDynamicImageProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		28DFA988346D465B9F5A397EB9BB1C71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		2B727CC5B18AF10BB3DE5CF6698C91E4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */; };
-		79C5872D89A9A9C1A7D0E57DE24D784B /* JYDarkModeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */; };
-		9DB4F137A62CBACCAA26931022E6C4FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		A0A6AA4038FF498A0158C830B0270C74 /* JYDarkModeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		359A1A3A292429FF15FA922B92809CE0 /* JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 69707178A385CEDAF5B7FBDD09242B16 /* JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D16D524D8258EEB4A046C6C14E7FB04 /* UIViewController+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA63F2336813CB27842EE09DF9DAFFA /* UIViewController+JYDarkModeKit.m */; };
+		4215ADCE2041B87003E082813CCAE7EC /* JYDynamicImageProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC333141EDA91EE4756B10EECF16576 /* JYDynamicImageProxy.m */; };
+		4D118EC5623789D404864782DB7C0CC1 /* UIToolbar+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E902EFA26750F234B6F176F311CA3AFA /* UIToolbar+JYDarkModeKit.m */; };
+		53852280F310007EC34CA38641236B32 /* JYDarkModeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C5CC95796B2998C3470A35DB1829D8 /* JYDarkModeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5AEE21D3BB961188A72DB99C3FDBB7E8 /* UIImage+JYDarkModelKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1507780C7F549EF4A05857D492A814E1 /* UIImage+JYDarkModelKit.m */; };
+		619324BA7642617BDEA4D136E531B008 /* UITableView+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F35AF9790F6BF65BADE3620A4EF9E4 /* UITableView+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65C57DCAD6F5DB6092FC568651C0450D /* UIImageView+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 85DE83D5132AA2A50413EF7B1FB17B30 /* UIImageView+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		726C470B1FC8286D8BDDCC5D77946B08 /* UIToolbar+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F247473637A00E1240826544694C4E5B /* UIToolbar+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76003BC9685FC303FBCD80673B049A34 /* JYEnvironmentConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DB5B82DAF69C4A633B779A94FF35943 /* JYEnvironmentConfiguration.m */; };
+		76AB1E6B09FA3D665A7AE6E4B7E94832 /* UIView+JYDatkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 415CCB7AB71D4C551A111EA1AFBA03F8 /* UIView+JYDatkModeKit.m */; };
+		7E9602EB9C40F30F08EA38F71746B573 /* UIView+JYDatkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 880FE6A95674E29924B570C1D762B894 /* UIView+JYDatkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B20F03220ABD9DC3E9A683354D24447 /* UIImage+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A51D1730E0F73ABA5EC6603F7E8F926 /* UIImage+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BEDBEF0CCE0ED60992F6CB80FC13976 /* UIImageView+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = E167E93399190AA03FC4FAF415604166 /* UIImageView+JYDarkModeKit.m */; };
+		938CEBD797767DA766557EAED2D9A159 /* JYTraitCollection.h in Headers */ = {isa = PBXBuildFile; fileRef = E14CFD26756D8B0FC4FDCEB4D1A3872A /* JYTraitCollection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9557E8CC860077C921FFB1FC615DBB13 /* UIColor+JYDarkModeKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BBB376DD2ED1470F26F2D6CC185E1DA /* UIColor+JYDarkModeKit.m */; };
+		96A220B15CA06A9FAB07B72404D40E9D /* JYDarkModeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 310C01A89F68550F48B67FE5DC6604C5 /* JYDarkModeKit-dummy.m */; };
+		A41F8DB2B6B0B80F9C40BBB9C0A79CB9 /* NSObject+JYTraitEnviroment.h in Headers */ = {isa = PBXBuildFile; fileRef = 4174DFB2061D686095965379AEDE2914 /* NSObject+JYTraitEnviroment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A67F278F80D140C47D5AE8AC63B85574 /* UIImage+JYDarkModelKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D7D96907C729B995B63A78145CE32D0 /* UIImage+JYDarkModelKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A90936B31292B2C221B4DFFA1D05F51B /* NSObject+JYTraitEnviroment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1912ECF46E913F3898F2E4B43960A6 /* NSObject+JYTraitEnviroment.m */; };
+		B212CEA254DA822799D97367A5F6B534 /* UIColor+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EC2A6DB330EFE7F76C5116D6FFE9EF35 /* UIColor+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2A5E8119CDE1ECA04A0CC8454F02BDA /* UIScreen+JYTraitEnviroment.h in Headers */ = {isa = PBXBuildFile; fileRef = FE67DE018731AF0188C653E788ECBDBC /* UIScreen+JYTraitEnviroment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3BD6C63993F39FEF3F90EB8FB478B66 /* UIViewController+JYDarkModeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EA9190F414A8D400FC0F938E441B05 /* UIViewController+JYDarkModeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4A48BF13D67004FF94E240ACA18AC7D /* UIWindow+JYTraitEnviroment.m in Sources */ = {isa = PBXBuildFile; fileRef = B27B14070245C268FD56B467B91F80BD /* UIWindow+JYTraitEnviroment.m */; };
+		E003334E580103024DE45B421830DF93 /* UIWindow+JYTraitEnviroment.h in Headers */ = {isa = PBXBuildFile; fileRef = 30BBE5814A914E3CD4529FD8A0891E42 /* UIWindow+JYTraitEnviroment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9274F029EED6FCEE33B0265B9D4CB10 /* JYDynamicColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 69FCAAF66C1C01729972441ADB96EAD6 /* JYDynamicColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF6F725930717FD07938598219C229C0 /* UIScreen+JYTraitEnviroment.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CFFBAE7CD69AA997C31716713584DC /* UIScreen+JYTraitEnviroment.m */; };
 		FC18240BEC7FC0BA0301E392DBE4284D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3ABBD2B8AE82DFD866ABB74877F501A5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6FFB7576FF2A22B56208B12A5453BD03;
-			remoteInfo = JYDarkModeKit;
-		};
-		3F03F59E547592299DF1BA4120528BF8 /* PBXContainerItemProxy */ = {
+		A8B146872D6E5E388A015B1D2C425B03 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 49A672D26CA4DFCE6E1FB29BB2533C38;
 			remoteInfo = "Pods-JYDarkModeKit_Example";
 		};
+		C1D375CB81E9B8BAF5BBBA8AE15B1786 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FFB7576FF2A22B56208B12A5453BD03;
+			remoteInfo = JYDarkModeKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		02EA9190F414A8D400FC0F938E441B05 /* UIViewController+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JYDarkModeKit.h"; sourceTree = "<group>"; };
 		0C8FA4A3DD7D29257ECA1E8F88F45DEF /* Pods-JYDarkModeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		0D4E44EF6B1BD06C0F08D1AAB24BAF37 /* Pods-JYDarkModeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0F13CD4B67B22AB0660A9A8409FA32EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		162199956584812C32121785975BFB42 /* JYDarkModeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYDarkModeKit.modulemap; sourceTree = "<group>"; };
+		0EA87C8DAF8B2DEF215EA072779CF5BF /* UITableView+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UITableView+JYDarkModeKit.m"; sourceTree = "<group>"; };
+		106417CBE0E4BFB2B3B079027DDC7463 /* JYDarkModeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JYDarkModeKit.modulemap; sourceTree = "<group>"; };
+		1507780C7F549EF4A05857D492A814E1 /* UIImage+JYDarkModelKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYDarkModelKit.m"; sourceTree = "<group>"; };
 		17F451BE4083F0E11AA202E9AA4C5A1E /* Pods-JYDarkModeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYDarkModeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		1DB5B82DAF69C4A633B779A94FF35943 /* JYEnvironmentConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYEnvironmentConfiguration.m; sourceTree = "<group>"; };
+		22C5CC95796B2998C3470A35DB1829D8 /* JYDarkModeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-umbrella.h"; sourceTree = "<group>"; };
 		25044A33A7BDE9958224678A3DD24D9F /* Pods-JYDarkModeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2EC43190CA40CBC2D38F0CEFFB4BBCD8 /* JYDarkModeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-prefix.pch"; sourceTree = "<group>"; };
+		2CDFC1B247641A439C8F7008795ABA6E /* JYDarkModeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYDarkModeKit-Info.plist"; sourceTree = "<group>"; };
+		2D7D96907C729B995B63A78145CE32D0 /* UIImage+JYDarkModelKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYDarkModelKit.h"; sourceTree = "<group>"; };
+		30BBE5814A914E3CD4529FD8A0891E42 /* UIWindow+JYTraitEnviroment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIWindow+JYTraitEnviroment.h"; sourceTree = "<group>"; };
+		310C01A89F68550F48B67FE5DC6604C5 /* JYDarkModeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYDarkModeKit-dummy.m"; sourceTree = "<group>"; };
+		3535498163C56FA9D0363923592967DA /* JYDynamicImageProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYDynamicImageProxy.h; sourceTree = "<group>"; };
 		3E969956B0774B1D093E4FFC55B6AEEC /* Pods-JYDarkModeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYDarkModeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		415CCB7AB71D4C551A111EA1AFBA03F8 /* UIView+JYDatkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+JYDatkModeKit.m"; sourceTree = "<group>"; };
+		4174DFB2061D686095965379AEDE2914 /* NSObject+JYTraitEnviroment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+JYTraitEnviroment.h"; sourceTree = "<group>"; };
+		5372DA5D429B9757944397DA0EDE29C0 /* JYDarkModeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.debug.xcconfig; sourceTree = "<group>"; };
 		55297A2C13A4D898DA3F55F586B724CD /* Pods-JYDarkModeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		59E85542A0075916E9F028C19388261A /* Pods-JYDarkModeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYDarkModeKit_Tests.modulemap"; sourceTree = "<group>"; };
 		5AB9C1A1542199CC465F6C3E3D8646F7 /* Pods-JYDarkModeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5BC333141EDA91EE4756B10EECF16576 /* JYDynamicImageProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYDynamicImageProxy.m; sourceTree = "<group>"; };
+		69707178A385CEDAF5B7FBDD09242B16 /* JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JYDarkModeKit.h; path = JYDarkModeKit/Classes/JYDarkModeKit.h; sourceTree = "<group>"; };
+		69FCAAF66C1C01729972441ADB96EAD6 /* JYDynamicColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYDynamicColor.h; sourceTree = "<group>"; };
+		6A51D1730E0F73ABA5EC6603F7E8F926 /* UIImage+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+JYDarkModeKit.h"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74642878E43C4FE74E01BD4C65D058AA /* Pods-JYDarkModeKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JYDarkModeKit_Tests"; path = Pods_JYDarkModeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7560FA060249821FA0DAFAAC302E68E0 /* Pods-JYDarkModeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JYDarkModeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3893034F165240908EDF275E73D1EB /* JYDarkModeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-prefix.pch"; sourceTree = "<group>"; };
+		7BBB376DD2ED1470F26F2D6CC185E1DA /* UIColor+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JYDarkModeKit.m"; sourceTree = "<group>"; };
 		7D54173F9ECF4BB2B177B2EA706FE40E /* Pods-JYDarkModeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Example-Info.plist"; sourceTree = "<group>"; };
-		82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = JYDarkModeKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7E1912ECF46E913F3898F2E4B43960A6 /* NSObject+JYTraitEnviroment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JYTraitEnviroment.m"; sourceTree = "<group>"; };
 		84EB1F813EE22AEBCA2B77FAE4750694 /* Pods-JYDarkModeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JYDarkModeKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JYDarkModeKit-dummy.m"; sourceTree = "<group>"; };
-		8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JYDarkModeKit-umbrella.h"; sourceTree = "<group>"; };
-		8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.release.xcconfig; sourceTree = "<group>"; };
+		85DE83D5132AA2A50413EF7B1FB17B30 /* UIImageView+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImageView+JYDarkModeKit.h"; sourceTree = "<group>"; };
+		880FE6A95674E29924B570C1D762B894 /* UIView+JYDatkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+JYDatkModeKit.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9E82176544AB56EF5F4326D6D69E2C /* JYDarkModeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYDarkModeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F07CFE07B986E333BC9F3732A455E4C /* Pods-JYDarkModeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYDarkModeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B85CA07A5BE5076953F9120E85F10B51 /* JYDarkModeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JYDarkModeKit-Info.plist"; sourceTree = "<group>"; };
+		A53C8805C152508341FCA8E9A13C10DA /* UIImage+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JYDarkModeKit.m"; sourceTree = "<group>"; };
+		A6AFF31538427B157563DE2B673A9F14 /* JYDynamicColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYDynamicColor.m; sourceTree = "<group>"; };
+		A819B59FBA872135A3A87E38E10D02E5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B27B14070245C268FD56B467B91F80BD /* UIWindow+JYTraitEnviroment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+JYTraitEnviroment.m"; sourceTree = "<group>"; };
 		B962EA0C2BB1ACA4D87184A5892BD0C1 /* Pods-JYDarkModeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JYDarkModeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		BA423BEFA17F73E5B6170B25B55FDB69 /* JYEnvironmentConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYEnvironmentConfiguration.h; sourceTree = "<group>"; };
 		BB07872DAB73D508F758FDC0E5D47CE0 /* Pods-JYDarkModeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JYDarkModeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC6FF568870BCDD6A40C47802DEBDA02 /* JYTraitCollection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JYTraitCollection.m; sourceTree = "<group>"; };
+		BF9025D69080D6E51A60F9F85E8F928E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C715F6345F2CB9849C5D5FBCF9B8209C /* Pods-JYDarkModeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JYDarkModeKit_Example.modulemap"; sourceTree = "<group>"; };
+		CFA63F2336813CB27842EE09DF9DAFFA /* UIViewController+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JYDarkModeKit.m"; sourceTree = "<group>"; };
 		D235433DA4612A30E05BDDFA057727E6 /* Pods-JYDarkModeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JYDarkModeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		D4CFFBAE7CD69AA997C31716713584DC /* UIScreen+JYTraitEnviroment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+JYTraitEnviroment.m"; sourceTree = "<group>"; };
 		D9B68E31EF5711B0D80C99A1F0D6013E /* JYDarkModeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JYDarkModeKit; path = JYDarkModeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1BD820FFC96753D3325CA023825D7A /* JYDarkModeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.release.xcconfig; sourceTree = "<group>"; };
 		DC9305BFFD985FE212A9A820B6DF46C4 /* Pods-JYDarkModeKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JYDarkModeKit_Example"; path = Pods_JYDarkModeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DCF284C691A4A63CAC0204CE7680C8BF /* JYDarkModeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = JYDarkModeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E4ABE9C24EBEC215E2FD74AE17BEEDB5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E14CFD26756D8B0FC4FDCEB4D1A3872A /* JYTraitCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JYTraitCollection.h; sourceTree = "<group>"; };
+		E167E93399190AA03FC4FAF415604166 /* UIImageView+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+JYDarkModeKit.m"; sourceTree = "<group>"; };
+		E902EFA26750F234B6F176F311CA3AFA /* UIToolbar+JYDarkModeKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+JYDarkModeKit.m"; sourceTree = "<group>"; };
+		EC2A6DB330EFE7F76C5116D6FFE9EF35 /* UIColor+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+JYDarkModeKit.h"; sourceTree = "<group>"; };
 		EF84ED6CA7D25C6029BB3283991D473B /* Pods-JYDarkModeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JYDarkModeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JYDarkModeKit.debug.xcconfig; sourceTree = "<group>"; };
+		F0F35AF9790F6BF65BADE3620A4EF9E4 /* UITableView+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UITableView+JYDarkModeKit.h"; sourceTree = "<group>"; };
+		F247473637A00E1240826544694C4E5B /* UIToolbar+JYDarkModeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+JYDarkModeKit.h"; sourceTree = "<group>"; };
+		FE67DE018731AF0188C653E788ECBDBC /* UIScreen+JYTraitEnviroment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIScreen+JYTraitEnviroment.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,14 +141,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		510072C3F21803424C8C6F9C9887B164 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DB4F137A62CBACCAA26931022E6C4FB /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B0E34C8365D88581A325C0FC9CEA7F3B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -97,28 +149,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E1896E759A9CA687628C4D9162AFB51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02982D99E8039B5166DE68AE3F3627C1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2F18AC985122BC4C114FC16E86EF1E2B /* JYDarkModeKit */ = {
+		008C89388612459D451D9D556D53E3EB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				82C558A98978489E8FE19750B3D9932E /* ReplaceMe.m */,
-				38A66D3664BE7DF35310E18E81E94564 /* Pod */,
-				772E339AE83163F76A717AFEB83E77C6 /* Support Files */,
+				E7C9C9BA47C1E954414611486FCFF7C9 /* JYDarkModeKit */,
 			);
-			name = JYDarkModeKit;
-			path = ../..;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		38A66D3664BE7DF35310E18E81E94564 /* Pod */ = {
+		015113DAD17DAB8A9597D5FC34745CCF /* JYDarkModeKit */ = {
 			isa = PBXGroup;
 			children = (
-				DCF284C691A4A63CAC0204CE7680C8BF /* JYDarkModeKit.podspec */,
-				E4ABE9C24EBEC215E2FD74AE17BEEDB5 /* LICENSE */,
-				0F13CD4B67B22AB0660A9A8409FA32EA /* README.md */,
+				BA423BEFA17F73E5B6170B25B55FDB69 /* JYEnvironmentConfiguration.h */,
+				1DB5B82DAF69C4A633B779A94FF35943 /* JYEnvironmentConfiguration.m */,
+				E14CFD26756D8B0FC4FDCEB4D1A3872A /* JYTraitCollection.h */,
+				BC6FF568870BCDD6A40C47802DEBDA02 /* JYTraitCollection.m */,
+				54D3F9AE4DD439BFA3EA3095D5623CD6 /* JYColor */,
+				E7D6E527EE138CED043CA5FCAFAEC6D6 /* JYExtension */,
+				AD48495D58AFD59C52773C87FC9E81CB /* JYUIImage */,
 			);
-			name = Pod;
+			name = JYDarkModeKit;
+			path = JYDarkModeKit/Classes/JYDarkModeKit;
 			sourceTree = "<group>";
 		};
 		4CEC7B9BBB3789DA89CF1D17C7CACC07 /* Targets Support Files */ = {
@@ -128,6 +190,18 @@
 				F389809DC025FAB4F186EA2F73DC2E52 /* Pods-JYDarkModeKit_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		54D3F9AE4DD439BFA3EA3095D5623CD6 /* JYColor */ = {
+			isa = PBXGroup;
+			children = (
+				69FCAAF66C1C01729972441ADB96EAD6 /* JYDynamicColor.h */,
+				A6AFF31538427B157563DE2B673A9F14 /* JYDynamicColor.m */,
+				EC2A6DB330EFE7F76C5116D6FFE9EF35 /* UIColor+JYDarkModeKit.h */,
+				7BBB376DD2ED1470F26F2D6CC185E1DA /* UIColor+JYDarkModeKit.m */,
+			);
+			name = JYColor;
+			path = JYColor;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -155,26 +229,50 @@
 			path = "Target Support Files/Pods-JYDarkModeKit_Example";
 			sourceTree = "<group>";
 		};
-		772E339AE83163F76A717AFEB83E77C6 /* Support Files */ = {
+		667429D5DBBC3F43673203E3BA049399 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				162199956584812C32121785975BFB42 /* JYDarkModeKit.modulemap */,
-				8664F112CDA2CA6FC423CD840B059C0D /* JYDarkModeKit-dummy.m */,
-				B85CA07A5BE5076953F9120E85F10B51 /* JYDarkModeKit-Info.plist */,
-				2EC43190CA40CBC2D38F0CEFFB4BBCD8 /* JYDarkModeKit-prefix.pch */,
-				8B3E1CF5525C85F648AA40C9A2A10DB7 /* JYDarkModeKit-umbrella.h */,
-				F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */,
-				8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */,
+				106417CBE0E4BFB2B3B079027DDC7463 /* JYDarkModeKit.modulemap */,
+				310C01A89F68550F48B67FE5DC6604C5 /* JYDarkModeKit-dummy.m */,
+				2CDFC1B247641A439C8F7008795ABA6E /* JYDarkModeKit-Info.plist */,
+				7B3893034F165240908EDF275E73D1EB /* JYDarkModeKit-prefix.pch */,
+				22C5CC95796B2998C3470A35DB1829D8 /* JYDarkModeKit-umbrella.h */,
+				5372DA5D429B9757944397DA0EDE29C0 /* JYDarkModeKit.debug.xcconfig */,
+				DA1BD820FFC96753D3325CA023825D7A /* JYDarkModeKit.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/JYDarkModeKit";
+			sourceTree = "<group>";
+		};
+		AD48495D58AFD59C52773C87FC9E81CB /* JYUIImage */ = {
+			isa = PBXGroup;
+			children = (
+				3535498163C56FA9D0363923592967DA /* JYDynamicImageProxy.h */,
+				5BC333141EDA91EE4756B10EECF16576 /* JYDynamicImageProxy.m */,
+				6A51D1730E0F73ABA5EC6603F7E8F926 /* UIImage+JYDarkModeKit.h */,
+				A53C8805C152508341FCA8E9A13C10DA /* UIImage+JYDarkModeKit.m */,
+				85DE83D5132AA2A50413EF7B1FB17B30 /* UIImageView+JYDarkModeKit.h */,
+				E167E93399190AA03FC4FAF415604166 /* UIImageView+JYDarkModeKit.m */,
+			);
+			name = JYUIImage;
+			path = JYUIImage;
+			sourceTree = "<group>";
+		};
+		B1DE3C598BEFEF0975CB4B85953233AC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				9D9E82176544AB56EF5F4326D6D69E2C /* JYDarkModeKit.podspec */,
+				A819B59FBA872135A3A87E38E10D02E5 /* LICENSE */,
+				BF9025D69080D6E51A60F9F85E8F928E /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				E48854F65D1CD1DEE1D2FC7B9272E064 /* Development Pods */,
+				008C89388612459D451D9D556D53E3EB /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				D672D4477CD2F0661DCB3846C709B881 /* Products */,
 				4CEC7B9BBB3789DA89CF1D17C7CACC07 /* Targets Support Files */,
@@ -199,12 +297,40 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E48854F65D1CD1DEE1D2FC7B9272E064 /* Development Pods */ = {
+		E7C9C9BA47C1E954414611486FCFF7C9 /* JYDarkModeKit */ = {
 			isa = PBXGroup;
 			children = (
-				2F18AC985122BC4C114FC16E86EF1E2B /* JYDarkModeKit */,
+				69707178A385CEDAF5B7FBDD09242B16 /* JYDarkModeKit.h */,
+				015113DAD17DAB8A9597D5FC34745CCF /* JYDarkModeKit */,
+				B1DE3C598BEFEF0975CB4B85953233AC /* Pod */,
+				667429D5DBBC3F43673203E3BA049399 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = JYDarkModeKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E7D6E527EE138CED043CA5FCAFAEC6D6 /* JYExtension */ = {
+			isa = PBXGroup;
+			children = (
+				4174DFB2061D686095965379AEDE2914 /* NSObject+JYTraitEnviroment.h */,
+				7E1912ECF46E913F3898F2E4B43960A6 /* NSObject+JYTraitEnviroment.m */,
+				2D7D96907C729B995B63A78145CE32D0 /* UIImage+JYDarkModelKit.h */,
+				1507780C7F549EF4A05857D492A814E1 /* UIImage+JYDarkModelKit.m */,
+				FE67DE018731AF0188C653E788ECBDBC /* UIScreen+JYTraitEnviroment.h */,
+				D4CFFBAE7CD69AA997C31716713584DC /* UIScreen+JYTraitEnviroment.m */,
+				F0F35AF9790F6BF65BADE3620A4EF9E4 /* UITableView+JYDarkModeKit.h */,
+				0EA87C8DAF8B2DEF215EA072779CF5BF /* UITableView+JYDarkModeKit.m */,
+				F247473637A00E1240826544694C4E5B /* UIToolbar+JYDarkModeKit.h */,
+				E902EFA26750F234B6F176F311CA3AFA /* UIToolbar+JYDarkModeKit.m */,
+				880FE6A95674E29924B570C1D762B894 /* UIView+JYDatkModeKit.h */,
+				415CCB7AB71D4C551A111EA1AFBA03F8 /* UIView+JYDatkModeKit.m */,
+				02EA9190F414A8D400FC0F938E441B05 /* UIViewController+JYDarkModeKit.h */,
+				CFA63F2336813CB27842EE09DF9DAFFA /* UIViewController+JYDarkModeKit.m */,
+				30BBE5814A914E3CD4529FD8A0891E42 /* UIWindow+JYTraitEnviroment.h */,
+				B27B14070245C268FD56B467B91F80BD /* UIWindow+JYTraitEnviroment.m */,
+			);
+			name = JYExtension;
+			path = JYExtension;
 			sourceTree = "<group>";
 		};
 		F389809DC025FAB4F186EA2F73DC2E52 /* Pods-JYDarkModeKit_Tests */ = {
@@ -226,11 +352,27 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		30127ED187E445CB533FC713D4EE1D36 /* Headers */ = {
+		1F629943D5A7FE8F87CEC9168E252C9E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0A6AA4038FF498A0158C830B0270C74 /* JYDarkModeKit-umbrella.h in Headers */,
+				359A1A3A292429FF15FA922B92809CE0 /* JYDarkModeKit.h in Headers */,
+				53852280F310007EC34CA38641236B32 /* JYDarkModeKit-umbrella.h in Headers */,
+				E9274F029EED6FCEE33B0265B9D4CB10 /* JYDynamicColor.h in Headers */,
+				229622DAECF14C843842FC46CEA89EFF /* JYDynamicImageProxy.h in Headers */,
+				0DB5CD748286D5449123DCDAED8B8BD4 /* JYEnvironmentConfiguration.h in Headers */,
+				938CEBD797767DA766557EAED2D9A159 /* JYTraitCollection.h in Headers */,
+				A41F8DB2B6B0B80F9C40BBB9C0A79CB9 /* NSObject+JYTraitEnviroment.h in Headers */,
+				B212CEA254DA822799D97367A5F6B534 /* UIColor+JYDarkModeKit.h in Headers */,
+				8B20F03220ABD9DC3E9A683354D24447 /* UIImage+JYDarkModeKit.h in Headers */,
+				A67F278F80D140C47D5AE8AC63B85574 /* UIImage+JYDarkModelKit.h in Headers */,
+				65C57DCAD6F5DB6092FC568651C0450D /* UIImageView+JYDarkModeKit.h in Headers */,
+				B2A5E8119CDE1ECA04A0CC8454F02BDA /* UIScreen+JYTraitEnviroment.h in Headers */,
+				619324BA7642617BDEA4D136E531B008 /* UITableView+JYDarkModeKit.h in Headers */,
+				726C470B1FC8286D8BDDCC5D77946B08 /* UIToolbar+JYDarkModeKit.h in Headers */,
+				7E9602EB9C40F30F08EA38F71746B573 /* UIView+JYDatkModeKit.h in Headers */,
+				B3BD6C63993F39FEF3F90EB8FB478B66 /* UIViewController+JYDarkModeKit.h in Headers */,
+				E003334E580103024DE45B421830DF93 /* UIWindow+JYTraitEnviroment.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +407,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				29AA05A90247420B6D80EBC7F24040AF /* PBXTargetDependency */,
+				4A985C6C2B87C8F7202F4700BFECBE5E /* PBXTargetDependency */,
 			);
 			name = "Pods-JYDarkModeKit_Tests";
 			productName = Pods_JYDarkModeKit_Tests;
@@ -284,7 +426,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				131FD39343FEC0691AD734B4E2522F29 /* PBXTargetDependency */,
+				DBEF33842338C9449D4789C25C8F0EE0 /* PBXTargetDependency */,
 			);
 			name = "Pods-JYDarkModeKit_Example";
 			productName = Pods_JYDarkModeKit_Example;
@@ -293,12 +435,12 @@
 		};
 		6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B759DEC530B4837F711E66E0BE11B2A /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */;
+			buildConfigurationList = 4014ED87015FE87333D451A0FCE65542 /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */;
 			buildPhases = (
-				30127ED187E445CB533FC713D4EE1D36 /* Headers */,
-				5F6D9499691C22FD186BE3B9C1C8FB3B /* Sources */,
-				510072C3F21803424C8C6F9C9887B164 /* Frameworks */,
-				A5C095F3176B97166660E326F77BD955 /* Resources */,
+				1F629943D5A7FE8F87CEC9168E252C9E /* Headers */,
+				99C1E31DBFC60F6A0C3990EFEA155B6D /* Sources */,
+				E1896E759A9CA687628C4D9162AFB51E /* Frameworks */,
+				484020217DC15ED91DB5B771C02BCEF9 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -346,7 +488,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A5C095F3176B97166660E326F77BD955 /* Resources */ = {
+		484020217DC15ED91DB5B771C02BCEF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -363,20 +505,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5F6D9499691C22FD186BE3B9C1C8FB3B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79C5872D89A9A9C1A7D0E57DE24D784B /* JYDarkModeKit-dummy.m in Sources */,
-				2B727CC5B18AF10BB3DE5CF6698C91E4 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		846FAE7E74AFAB661DA3A5768AFE4768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				09C8C65C367234802AD5BE01A07F8C65 /* Pods-JYDarkModeKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99C1E31DBFC60F6A0C3990EFEA155B6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96A220B15CA06A9FAB07B72404D40E9D /* JYDarkModeKit-dummy.m in Sources */,
+				027C69B72C636AB36C90014F8C385070 /* JYDynamicColor.m in Sources */,
+				4215ADCE2041B87003E082813CCAE7EC /* JYDynamicImageProxy.m in Sources */,
+				76003BC9685FC303FBCD80673B049A34 /* JYEnvironmentConfiguration.m in Sources */,
+				080A3BDBCAF74B63761554CB96E1757B /* JYTraitCollection.m in Sources */,
+				A90936B31292B2C221B4DFFA1D05F51B /* NSObject+JYTraitEnviroment.m in Sources */,
+				9557E8CC860077C921FFB1FC615DBB13 /* UIColor+JYDarkModeKit.m in Sources */,
+				12BFA6649CAD7337A1169146F6006020 /* UIImage+JYDarkModeKit.m in Sources */,
+				5AEE21D3BB961188A72DB99C3FDBB7E8 /* UIImage+JYDarkModelKit.m in Sources */,
+				8BEDBEF0CCE0ED60992F6CB80FC13976 /* UIImageView+JYDarkModeKit.m in Sources */,
+				EF6F725930717FD07938598219C229C0 /* UIScreen+JYTraitEnviroment.m in Sources */,
+				0C331EE3B5314CF34C8D55A83F50F755 /* UITableView+JYDarkModeKit.m in Sources */,
+				4D118EC5623789D404864782DB7C0CC1 /* UIToolbar+JYDarkModeKit.m in Sources */,
+				76AB1E6B09FA3D665A7AE6E4B7E94832 /* UIView+JYDatkModeKit.m in Sources */,
+				3D16D524D8258EEB4A046C6C14E7FB04 /* UIViewController+JYDarkModeKit.m in Sources */,
+				C4A48BF13D67004FF94E240ACA18AC7D /* UIWindow+JYTraitEnviroment.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,52 +547,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		131FD39343FEC0691AD734B4E2522F29 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = JYDarkModeKit;
-			target = 6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */;
-			targetProxy = 3ABBD2B8AE82DFD866ABB74877F501A5 /* PBXContainerItemProxy */;
-		};
-		29AA05A90247420B6D80EBC7F24040AF /* PBXTargetDependency */ = {
+		4A985C6C2B87C8F7202F4700BFECBE5E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JYDarkModeKit_Example";
 			target = 49A672D26CA4DFCE6E1FB29BB2533C38 /* Pods-JYDarkModeKit_Example */;
-			targetProxy = 3F03F59E547592299DF1BA4120528BF8 /* PBXContainerItemProxy */;
+			targetProxy = A8B146872D6E5E388A015B1D2C425B03 /* PBXContainerItemProxy */;
+		};
+		DBEF33842338C9449D4789C25C8F0EE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JYDarkModeKit;
+			target = 6FFB7576FF2A22B56208B12A5453BD03 /* JYDarkModeKit */;
+			targetProxy = C1D375CB81E9B8BAF5BBBA8AE15B1786 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		005FCA3C18CA001220E22E9BCB2615BF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D9B00CB9DC99BF15C7F9D9C66006ED0 /* JYDarkModeKit.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
-				PRODUCT_MODULE_NAME = JYDarkModeKit;
-				PRODUCT_NAME = JYDarkModeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		169FE3ACD141A96B9A1366C2C677A095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7560FA060249821FA0DAFAAC302E68E0 /* Pods-JYDarkModeKit_Tests.debug.xcconfig */;
@@ -535,36 +660,6 @@
 			};
 			name = Debug;
 		};
-		66FCBA9F0BC1D99A35BF7F3E4057EC26 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9A72EBB62B717A04F411FBECC220367 /* JYDarkModeKit.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
-				PRODUCT_MODULE_NAME = JYDarkModeKit;
-				PRODUCT_NAME = JYDarkModeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		6A6F9FC8033106F9FE4D29CD67CAB273 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D4E44EF6B1BD06C0F08D1AAB24BAF37 /* Pods-JYDarkModeKit_Tests.release.xcconfig */;
@@ -598,6 +693,37 @@
 			};
 			name = Release;
 		};
+		7470ED189AC585B23BFFFCC18382D70A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5372DA5D429B9757944397DA0EDE29C0 /* JYDarkModeKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = JYDarkModeKit;
+				PRODUCT_NAME = JYDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		8306FEEFEF163AE9A363948712C3575B /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 25044A33A7BDE9958224678A3DD24D9F /* Pods-JYDarkModeKit_Example.release.xcconfig */;
@@ -624,6 +750,38 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		969D4F9DCD35E3232103C3E3A48D2513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA1BD820FFC96753D3325CA023825D7A /* JYDarkModeKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JYDarkModeKit/JYDarkModeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JYDarkModeKit/JYDarkModeKit.modulemap";
+				PRODUCT_MODULE_NAME = JYDarkModeKit;
+				PRODUCT_NAME = JYDarkModeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -728,20 +886,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		4014ED87015FE87333D451A0FCE65542 /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7470ED189AC585B23BFFFCC18382D70A /* Debug */,
+				969D4F9DCD35E3232103C3E3A48D2513 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7B759DEC530B4837F711E66E0BE11B2A /* Build configuration list for PBXNativeTarget "JYDarkModeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				66FCBA9F0BC1D99A35BF7F3E4057EC26 /* Debug */,
-				005FCA3C18CA001220E22E9BCB2615BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

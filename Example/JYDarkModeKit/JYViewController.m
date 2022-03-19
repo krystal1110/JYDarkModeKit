@@ -7,6 +7,7 @@
 //
 
 #import "JYViewController.h"
+#import "JYDarkModeKit.h"
 
 @interface JYViewController ()
 
