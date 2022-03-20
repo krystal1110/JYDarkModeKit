@@ -13,9 +13,7 @@ JYDarkModeKit is available through [CocoaPods](https://cocoapods.org). To instal
 pod 'JYDarkModeKit'
 ```
 
-
-
-使用教程：
+### 使用教程
 
 导入头文件
 
