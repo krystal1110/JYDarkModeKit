@@ -5,6 +5,9 @@
 [![License](https://img.shields.io/cocoapods/l/JYDarkModeKit.svg?style=flat)](https://cocoapods.org/pods/JYDarkModeKit)
 [![Platform](https://img.shields.io/cocoapods/p/JYDarkModeKit.svg?style=flat)](https://cocoapods.org/pods/JYDarkModeKit)
 
+
+##  JYDarkModeKit主要功能：适配夜间模式，iOS10以上的系统均能适配，实时更新页面
+
 ## Example
 
 JYDarkModeKit is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
