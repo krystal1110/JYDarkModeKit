@@ -7,22 +7,83 @@
 
 ## Example
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
-
-## Installation
-
-JYDarkModeKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+JYDarkModeKit is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'JYDarkModeKit'
 ```
 
+
+
+使用教程：
+
+导入头文件
+
+```C
+#import "JYDarkModeKit.h"
+```
+
+
+
+在`AppDelegate`进行初始化工作
+
+```objective-c
+JYEnvironmentConfiguration * configuration = [JYEnvironmentConfiguration 
+                                              initWithThemeChangeHandler:^{
+        NSLog(@"themeChangeHandler");
+    }];    
+[JYTraitCollection setupEnvironmentWithConfiguration:configuration];
+[JYTraitCollection registerWithApplication:application animated:YES];
+```
+
+
+
+设置背景颜色
+
+```objective-c
+self.view.backgroundColor = [UIColor jy_colorWithLightColor:[UIColor yellowColor] darkColor:[UIColor orangeColor]];
+```
+
+
+
+设置图片
+
+```objective-c
+UIImageView * imageView =  [[UIImageView alloc]initWithFrame:CGRectMake(50, 550, 100, 50)];
+   
+[imageView setImage:[UIImage jy_imageWithLightImage:[UIImage imageNamed:@"test3"] darkImage:[UIImage imageNamed:@"test"]]];
+```
+
+
+
+修改颜色
+
+```objective-c
+///普通模式
+[JYTraitCollection setOverrideTraitCollectionStyle:JYInterfaceStyleLight animated:YES];
+ 
+///夜间模式  
+[JYTraitCollection setOverrideTraitCollectionStyle:JYInterfaceStyleDark animated:YES];
+```
+
+
+
+获取当前样式
+
+```objective-c
+///iOS13以上通过
+[JYTraitCollection currentTraitCollection].uiTraitCollection.userInterfaceStyle 
+  
+///iOS13以下  
+JYTraitCollection.overrideTraitCollection.userInterfaceStyle
+  
+```
+
+
+
 ## Author
 
-jingyu.liao, 83936557+krystal1110@users.noreply.github.com
+JY
 
 ## License
 
